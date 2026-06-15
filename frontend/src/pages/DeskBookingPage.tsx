@@ -66,12 +66,13 @@ export default function DeskBookingPage() {
     setSelectedDesk(desk);
     setShowDialog(true);
   }
-
+// Create a new desk booking for the selected desk and date
   async function handleConfirmBooking() {
     if (!selectedDesk) return;
 
     setIsLoading(true);
     try {
+      // Send booking request to backend API
       await apiClient.post('/bookings/desks', {
         deskId: selectedDesk.id,
         date: selectedDate,
