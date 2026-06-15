@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1781511837711" clover="3.2.0">
+  <project timestamp="1781511837711" name="All files">
+    <metrics statements="498" coveredstatements="464" conditionals="128" coveredconditionals="119" methods="60" coveredmethods="60" elements="686" coveredelements="643" complexity="0" loc="498" ncloc="498" packages="5" files="15" classes="15"/>
+    <package name="controllers">
+      <metrics statements="218" coveredstatements="189" conditionals="67" coveredconditionals="60" methods="29" coveredmethods="29"/>
+      <file name="adminController.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\controllers\adminController.ts">
+        <metrics statements="93" coveredstatements="75" conditionals="32" coveredconditionals="26" methods="9" coveredmethods="9"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="26" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="60" count="4" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="76" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="82" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="95" count="4" type="stmt"/>
+        <line num="96" count="3" type="stmt"/>
+        <line num="97" count="3" type="stmt"/>
+        <line num="98" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="103" count="3" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="107" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="108" count="2" type="stmt"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="120" count="4" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="122" count="3" type="stmt"/>
+        <line num="123" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="124" count="1" type="stmt"/>
+        <line num="125" count="1" type="stmt"/>
+        <line num="128" count="2" type="stmt"/>
+        <line num="129" count="2" type="stmt"/>
+        <line num="131" count="1" type="stmt"/>
+        <line num="133" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="134" count="1" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="146" count="4" type="stmt"/>
+        <line num="147" count="2" type="stmt"/>
+        <line num="148" count="2" type="stmt"/>
+        <line num="149" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="154" count="2" type="stmt"/>
+        <line num="155" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="160" count="2" type="stmt"/>
+        <line num="161" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="162" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="164" count="2" type="stmt"/>
+        <line num="166" count="1" type="stmt"/>
+        <line num="168" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="169" count="1" type="stmt"/>
+        <line num="170" count="1" type="stmt"/>
+        <line num="172" count="0" type="stmt"/>
+        <line num="181" count="4" type="stmt"/>
+        <line num="182" count="3" type="stmt"/>
+        <line num="183" count="3" type="stmt"/>
+        <line num="184" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="186" count="0" type="stmt"/>
+        <line num="189" count="3" type="stmt"/>
+        <line num="191" count="1" type="stmt"/>
+        <line num="193" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="194" count="2" type="stmt"/>
+        <line num="195" count="2" type="stmt"/>
+        <line num="197" count="0" type="stmt"/>
+      </file>
+      <file name="authController.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\controllers\authController.ts">
+        <metrics statements="46" coveredstatements="41" conditionals="15" coveredconditionals="14" methods="8" coveredmethods="8"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="10" count="355" type="stmt"/>
+        <line num="15" count="305" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="506" type="stmt"/>
+        <line num="28" count="506" type="stmt"/>
+        <line num="29" count="506" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="304" type="stmt"/>
+        <line num="31" count="304" type="stmt"/>
+        <line num="34" count="202" type="stmt"/>
+        <line num="35" count="202" type="stmt"/>
+        <line num="37" count="101" type="stmt"/>
+        <line num="40" count="101" type="cond" truecount="3" falsecount="0"/>
+        <line num="41" count="101" type="stmt"/>
+        <line num="42" count="101" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="54" count="1303" type="stmt"/>
+        <line num="55" count="1303" type="stmt"/>
+        <line num="56" count="1303" type="cond" truecount="1" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="1302" type="stmt"/>
+        <line num="62" count="1302" type="stmt"/>
+        <line num="65" count="101" type="stmt"/>
+        <line num="68" count="101" type="stmt"/>
+        <line num="70" count="101" type="stmt"/>
+        <line num="73" count="1201" type="cond" truecount="1" falsecount="0"/>
+        <line num="74" count="1201" type="stmt"/>
+        <line num="78" count="1201" type="cond" truecount="3" falsecount="0"/>
+        <line num="79" count="1201" type="stmt"/>
+        <line num="80" count="1201" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="91" count="5" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="94" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="118" count="101" type="cond" truecount="3" falsecount="0"/>
+        <line num="122" count="1201" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="availabilityController.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\controllers\availabilityController.ts">
+        <metrics statements="24" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+      <file name="bookingController.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\controllers\bookingController.ts">
+        <metrics statements="55" coveredstatements="51" conditionals="18" coveredconditionals="18" methods="8" coveredmethods="8"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="28" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="38" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="54" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="59" count="4" type="stmt"/>
+        <line num="60" count="4" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="64" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="77" count="4" type="stmt"/>
+        <line num="78" count="4" type="stmt"/>
+        <line num="79" count="4" type="stmt"/>
+        <line num="81" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="90" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="91" count="2" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="104" count="4" type="stmt"/>
+        <line num="105" count="7" type="stmt"/>
+        <line num="106" count="7" type="stmt"/>
+        <line num="108" count="6" type="stmt"/>
+        <line num="115" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="116" count="3" type="stmt"/>
+        <line num="122" count="3" type="stmt"/>
+        <line num="125" count="3" type="stmt"/>
+        <line num="131" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="146" count="8" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="middleware">
+      <metrics statements="53" coveredstatements="51" conditionals="13" coveredconditionals="12" methods="7" coveredmethods="7"/>
+      <file name="adminGuard.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\middleware\adminGuard.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="134" type="cond" truecount="3" falsecount="0"/>
+        <line num="11" count="112" type="stmt"/>
+        <line num="12" count="112" type="stmt"/>
+        <line num="15" count="22" type="stmt"/>
+      </file>
+      <file name="authGuard.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\middleware\authGuard.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="66" type="cond" truecount="3" falsecount="0"/>
+        <line num="42" count="13" type="stmt"/>
+        <line num="43" count="13" type="stmt"/>
+        <line num="47" count="53" type="stmt"/>
+        <line num="48" count="53" type="stmt"/>
+      </file>
+      <file name="rateLimiter.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\middleware\rateLimiter.ts">
+        <metrics statements="42" coveredstatements="40" conditionals="7" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="1708" type="stmt"/>
+        <line num="21" count="1708" type="stmt"/>
+        <line num="23" count="1708" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="503" type="stmt"/>
+        <line num="27" count="1205" type="stmt"/>
+        <line num="30" count="1205" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="1204" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="303" type="stmt"/>
+        <line num="38" count="303" type="stmt"/>
+        <line num="41" count="901" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="48" count="1963" type="stmt"/>
+        <line num="49" count="1963" type="stmt"/>
+        <line num="51" count="1963" type="cond" truecount="1" falsecount="0"/>
+        <line num="52" count="606" type="stmt"/>
+        <line num="53" count="606" type="stmt"/>
+        <line num="56" count="1357" type="stmt"/>
+        <line num="59" count="1357" type="cond" truecount="0" falsecount="1"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="1357" type="stmt"/>
+        <line num="70" count="5" type="stmt"/>
+        <line num="71" count="101" type="stmt"/>
+        <line num="72" count="101" type="stmt"/>
+        <line num="79" count="5" type="stmt"/>
+        <line num="80" count="1503" type="stmt"/>
+        <line num="82" count="1503" type="cond" truecount="1" falsecount="0"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="88" count="1502" type="stmt"/>
+        <line num="90" count="1502" type="cond" truecount="1" falsecount="0"/>
+        <line num="91" count="201" type="stmt"/>
+        <line num="95" count="201" type="stmt"/>
+        <line num="98" count="1301" type="stmt"/>
+        <line num="104" count="5" type="stmt"/>
+        <line num="105" count="717" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="208" coveredstatements="205" conditionals="47" coveredconditionals="46" methods="22" coveredmethods="22"/>
+      <file name="authService.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\services\authService.ts">
+        <metrics statements="35" coveredstatements="35" conditionals="7" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="24" count="203" type="stmt"/>
+        <line num="26" count="203" type="stmt"/>
+        <line num="33" count="103" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="45" count="1605" type="stmt"/>
+        <line num="51" count="1605" type="stmt"/>
+        <line num="53" count="1605" type="cond" truecount="1" falsecount="0"/>
+        <line num="55" count="1202" type="stmt"/>
+        <line num="56" count="1202" type="stmt"/>
+        <line num="59" count="403" type="stmt"/>
+        <line num="61" count="403" type="cond" truecount="1" falsecount="0"/>
+        <line num="62" count="202" type="stmt"/>
+        <line num="66" count="201" type="stmt"/>
+        <line num="67" count="201" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="81" count="6" type="stmt"/>
+        <line num="84" count="4" type="stmt"/>
+        <line num="89" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="93" count="3" type="stmt"/>
+        <line num="96" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="103" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="105" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="116" count="1404" type="stmt"/>
+        <line num="117" count="1404" type="stmt"/>
+        <line num="118" count="1404" type="stmt"/>
+      </file>
+      <file name="bookingService.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\services\bookingService.ts">
+        <metrics statements="93" coveredstatements="92" conditionals="26" coveredconditionals="26" methods="10" coveredmethods="10"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="21" count="1317" type="stmt"/>
+        <line num="22" count="1317" type="stmt"/>
+        <line num="23" count="1317" type="stmt"/>
+        <line num="31" count="1415" type="stmt"/>
+        <line num="32" count="1415" type="stmt"/>
+        <line num="34" count="1415" type="stmt"/>
+        <line num="35" count="1415" type="stmt"/>
+        <line num="37" count="1415" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="202" type="stmt"/>
+        <line num="41" count="1213" type="stmt"/>
+        <line num="42" count="1213" type="stmt"/>
+        <line num="44" count="1213" type="cond" truecount="1" falsecount="0"/>
+        <line num="45" count="202" type="stmt"/>
+        <line num="54" count="10" type="stmt"/>
+        <line num="59" count="809" type="stmt"/>
+        <line num="62" count="607" type="stmt"/>
+        <line num="67" count="607" type="cond" truecount="3" falsecount="0"/>
+        <line num="68" count="202" type="stmt"/>
+        <line num="71" count="405" type="stmt"/>
+        <line num="72" count="405" type="stmt"/>
+        <line num="79" count="303" type="stmt"/>
+        <line num="81" count="102" type="cond" truecount="1" falsecount="0"/>
+        <line num="82" count="101" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="93" count="10" type="stmt"/>
+        <line num="98" count="606" type="stmt"/>
+        <line num="101" count="404" type="stmt"/>
+        <line num="106" count="404" type="cond" truecount="3" falsecount="0"/>
+        <line num="107" count="202" type="stmt"/>
+        <line num="110" count="202" type="stmt"/>
+        <line num="111" count="202" type="stmt"/>
+        <line num="118" count="101" type="stmt"/>
+        <line num="120" count="101" type="cond" truecount="1" falsecount="0"/>
+        <line num="121" count="101" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="131" count="10" type="stmt"/>
+        <line num="136" count="305" type="stmt"/>
+        <line num="141" count="305" type="cond" truecount="1" falsecount="0"/>
+        <line num="142" count="1" type="stmt"/>
+        <line num="145" count="304" type="stmt"/>
+        <line num="148" count="304" type="cond" truecount="1" falsecount="0"/>
+        <line num="149" count="101" type="stmt"/>
+        <line num="153" count="203" type="stmt"/>
+        <line num="154" count="203" type="stmt"/>
+        <line num="156" count="203" type="stmt"/>
+        <line num="157" count="203" type="stmt"/>
+        <line num="159" count="203" type="cond" truecount="1" falsecount="0"/>
+        <line num="160" count="101" type="stmt"/>
+        <line num="164" count="102" type="stmt"/>
+        <line num="185" count="10" type="stmt"/>
+        <line num="186" count="300" type="stmt"/>
+        <line num="196" count="300" type="stmt"/>
+        <line num="203" count="10" type="stmt"/>
+        <line num="204" count="100" type="stmt"/>
+        <line num="214" count="100" type="stmt"/>
+        <line num="242" count="10" type="stmt"/>
+        <line num="245" count="216" type="stmt"/>
+        <line num="247" count="216" type="stmt"/>
+        <line num="252" count="216" type="cond" truecount="4" falsecount="0"/>
+        <line num="254" count="7" type="stmt"/>
+        <line num="255" count="7" type="stmt"/>
+        <line num="256" count="7" type="stmt"/>
+        <line num="257" count="7" type="stmt"/>
+        <line num="259" count="209" type="stmt"/>
+        <line num="260" count="209" type="stmt"/>
+        <line num="263" count="209" type="stmt"/>
+        <line num="264" count="209" type="cond" truecount="3" falsecount="0"/>
+        <line num="265" count="1" type="stmt"/>
+        <line num="269" count="208" type="stmt"/>
+        <line num="270" count="208" type="stmt"/>
+        <line num="271" count="208" type="cond" truecount="3" falsecount="0"/>
+        <line num="272" count="1" type="stmt"/>
+        <line num="276" count="207" type="stmt"/>
+        <line num="277" count="207" type="stmt"/>
+        <line num="278" count="207" type="cond" truecount="1" falsecount="0"/>
+        <line num="279" count="101" type="stmt"/>
+        <line num="282" count="106" type="cond" truecount="1" falsecount="0"/>
+        <line num="283" count="1" type="stmt"/>
+        <line num="288" count="112" type="stmt"/>
+        <line num="289" count="112" type="stmt"/>
+        <line num="291" count="112" type="cond" truecount="1" falsecount="0"/>
+        <line num="292" count="84" type="stmt"/>
+        <line num="293" count="84" type="stmt"/>
+        <line num="296" count="112" type="stmt"/>
+        <line num="312" count="112" type="stmt"/>
+        <line num="314" count="21156" type="stmt"/>
+        <line num="322" count="112" type="stmt"/>
+        <line num="332" count="10" type="stmt"/>
+        <line num="335" count="303" type="stmt"/>
+        <line num="336" count="303" type="stmt"/>
+        <line num="338" count="303" type="stmt"/>
+        <line num="353" count="303" type="stmt"/>
+      </file>
+      <file name="resourceService.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\services\resourceService.ts">
+        <metrics statements="80" coveredstatements="78" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="25" count="411" type="stmt"/>
+        <line num="26" count="411" type="stmt"/>
+        <line num="27" count="411" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="35" count="203" type="stmt"/>
+        <line num="36" count="203" type="stmt"/>
+        <line num="43" count="101" type="stmt"/>
+        <line num="45" count="102" type="cond" truecount="1" falsecount="0"/>
+        <line num="46" count="101" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="62" count="6" type="stmt"/>
+        <line num="67" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="71" count="4" type="stmt"/>
+        <line num="72" count="4" type="stmt"/>
+        <line num="73" count="4" type="stmt"/>
+        <line num="75" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="77" count="3" type="stmt"/>
+        <line num="78" count="3" type="stmt"/>
+        <line num="81" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="83" count="2" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="87" count="4" type="stmt"/>
+        <line num="88" count="4" type="stmt"/>
+        <line num="90" count="4" type="stmt"/>
+        <line num="91" count="4" type="stmt"/>
+        <line num="97" count="3" type="stmt"/>
+        <line num="99" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="111" count="6" type="stmt"/>
+        <line num="113" count="104" type="stmt"/>
+        <line num="118" count="104" type="cond" truecount="1" falsecount="0"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="123" count="103" type="stmt"/>
+        <line num="130" count="103" type="cond" truecount="1" falsecount="0"/>
+        <line num="131" count="101" type="stmt"/>
+        <line num="134" count="2" type="stmt"/>
+        <line num="144" count="6" type="stmt"/>
+        <line num="148" count="203" type="stmt"/>
+        <line num="149" count="203" type="stmt"/>
+        <line num="156" count="101" type="stmt"/>
+        <line num="158" count="102" type="cond" truecount="1" falsecount="0"/>
+        <line num="159" count="101" type="stmt"/>
+        <line num="161" count="1" type="stmt"/>
+        <line num="170" count="6" type="stmt"/>
+        <line num="175" count="5" type="stmt"/>
+        <line num="180" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="181" count="1" type="stmt"/>
+        <line num="184" count="4" type="stmt"/>
+        <line num="185" count="4" type="stmt"/>
+        <line num="186" count="4" type="stmt"/>
+        <line num="188" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="189" count="3" type="stmt"/>
+        <line num="190" count="3" type="stmt"/>
+        <line num="191" count="3" type="stmt"/>
+        <line num="194" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="195" count="2" type="stmt"/>
+        <line num="196" count="2" type="stmt"/>
+        <line num="197" count="2" type="stmt"/>
+        <line num="200" count="4" type="stmt"/>
+        <line num="201" count="4" type="stmt"/>
+        <line num="203" count="4" type="stmt"/>
+        <line num="204" count="4" type="stmt"/>
+        <line num="210" count="3" type="stmt"/>
+        <line num="212" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="213" count="1" type="stmt"/>
+        <line num="215" count="0" type="stmt"/>
+        <line num="224" count="6" type="stmt"/>
+        <line num="226" count="104" type="stmt"/>
+        <line num="231" count="104" type="cond" truecount="1" falsecount="0"/>
+        <line num="232" count="1" type="stmt"/>
+        <line num="236" count="103" type="stmt"/>
+        <line num="243" count="103" type="cond" truecount="1" falsecount="0"/>
+        <line num="244" count="101" type="stmt"/>
+        <line num="247" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="escapeHtml.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\utils\escapeHtml.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="validators">
+      <metrics statements="17" coveredstatements="17" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="adminValidators.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\validators\adminValidators.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="75" count="4" type="stmt"/>
+      </file>
+      <file name="authValidators.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\validators\authValidators.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+      </file>
+      <file name="availabilityValidators.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\validators\availabilityValidators.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="bookingValidators.ts" path="C:\Users\sj716f\Desktop\Apprenticeship\CapstoneProject\backend\src\validators\bookingValidators.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

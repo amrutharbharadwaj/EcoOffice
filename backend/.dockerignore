@@ -1,0 +1,10 @@
+node_modules
+dist
+*.test.ts
+*.spec.ts
+jest.config.ts
+jest.e2e.config.ts
+.env
+.env.*
+coverage
+.git
