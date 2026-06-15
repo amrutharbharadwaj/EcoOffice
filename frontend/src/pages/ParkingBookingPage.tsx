@@ -32,7 +32,7 @@ export default function ParkingBookingPage() {
     } catch (err) {
       const apiErr = err as ApiError;
       setSpots([]);
-      setNotification({ type: 'error', message: apiErr.error || 'Failed to load parking spots' });
+      setNotification({ type: 'error', message: apiErr.error || 'Failed to load the parking spots' });
     } finally {
       setIsLoadingSpots(false);
     }
